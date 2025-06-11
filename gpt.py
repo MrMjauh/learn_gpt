@@ -52,7 +52,7 @@ class Head(nn.Module):
         scores_out = torch.matmul(q_out, k_out.transpose(-2, -1)) / (
             self.head_size**0.5
         )
-        # This step is important to make sure it does not 'attend' to future woreds. Needed for language models
+        # This step is important to make sure it does not 'attend' to future words. Crucial for prediction tasks
         scores_out = scores_out.masked_fill(
             self.tril[:seq_len, :seq_len] == 0, float("-inf")
         )
@@ -171,14 +171,14 @@ class Gpt(nn.Module):
         #     "the cat sat" -> "on"
         # This would add more samples for the loss gradient, but made it a bit more complicated to understand
         # TODO: Can we somehow modify the whole architecture so the last linear layer outputs the correct dimensions (batch_size, embedding_dim) -> softmax that
-        #logits = logits[:, -1, :]
+        # logits = logits[:, -1, :]
 
         if targets is None:
             loss = None
         else:
             B, T, C = logits.shape
-            logits = logits.view(B*T, C)
-            targets = targets.view(B*T)
+            logits = logits.view(B * T, C)
+            targets = targets.view(B * T)
             loss = nn.functional.cross_entropy(logits, targets)
 
         return logits, loss
@@ -190,6 +190,7 @@ max_iters = 20000
 eval_iter = 200
 lr = 3e-4
 batch_size = 64
+
 
 def get_batch(dataset):
     ix = torch.randint(len(dataset) - context_window, (batch_size,))

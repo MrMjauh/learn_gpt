@@ -4,6 +4,7 @@ Follows https://arxiv.org/pdf/1706.03762 somewhat, but only the decoder part as 
 - Uses a simple character encoder
 - Only for learning purpose, and get more insight into the gpt models
 - Layer norms and residuel connections are done differently in gpt
+- Using masked attention heads for each, should not be needed?
 
 ## When running on a old laptop
 
