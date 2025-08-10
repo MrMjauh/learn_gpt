@@ -37,7 +37,7 @@ def create_new_training(
     with open(filename, 'w', encoding='utf-8') as f:
         for h, v in zip(headers, values):
             f.write(f"{h}={v}\n")
-        f.write(f"Comment=...\n")
+        f.write(f"comment=...\n")
         f.write("\n")
 
     print(f"Created new training file: {filename}")

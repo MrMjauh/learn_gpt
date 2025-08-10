@@ -5,6 +5,7 @@ tokenizer_id=???
 context_window=64
 embedding_dim=64
 dropout_rate=0.1
+comment=...
 
 ===Evaluation (0/20000)===
 Example
@@ -43,4 +44,17 @@ Example
 ```
 loss = 5.118791580200195
 perplexity = 167.13328552246094
+
+===Evaluation (4000/20000)===
+Example
+```
+! ( <|unk|> , Bart Reich ) to Britain 's for their problem has married to duck + . It is likely greatly only a <|unk|> strongly , who are observed to Saigon which ended with cover playing her . His ally with the nucleus : Marosaur dishes that the Py , was coined and the same time would get letters , or <|unk|> the nuclear Ashes River tradition of the West Point River was to be recognised as part that they were armed with a survey in high Hall . 
+ Fowler was published in a number of castle for the end of the 00 . By the sart above play 's resultant rates of permission to a manner before the record preceding end of <|unk|> in Terrorist Industry . Neovina was reached by a Pictish movement in theest group , who had forced it to patrol Hand . Rim amended the American works by upright animal Holland , however when temperature was seen in encl analyse . 
+ The interests Cadm . The largest proposal , kidnap Sir where Bart , an Rhardspan , and the sequence of <|unk|> , everybody wasction and pull comrades up to compensate for <|unk|> Sleaf as a standard soldiers . She pitched a flight , defeating the third pilot problem . F. Brenda was <|unk|> in the legacy of the song " gate @-@ and starred in the <|unk|> realizes that " the clothes did not be state " . <|unk|> MLs also hadains and labou owed subdued for Ernest Christopher Garth , and is one up without death . He putsry workers users to enslaved the value of American artists who abandon avingly Reagan lifespan to consider Carey to play Jordan 's right to bring baby skills that Tessa is well . While Gracehofe Publications 's Max Twenty36 peaked at this context , was unable to continue all move . Although her City struggled in most common artists Mr <|unk|> , Black 's death was completely bestowed shortly after they died . Jack <|unk|> fighting were now had preseason air from midnight with the former home interests of pregnancy ; their publisher began after young restaurant in a possible startingaski secured . <|unk|> application are one of all the people , and hyhed <|unk|> flattened virus . 
+ 
+ = = = Vice 
+ Upon large ft opened against Scientology book attention to other mand Turnp thoroughly rooms ; the other fishing are a Advanced <|unk|
+```
+loss = 5.0411529541015625
+perplexity = 154.64820861816406
 
