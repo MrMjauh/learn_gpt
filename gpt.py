@@ -248,7 +248,10 @@ for iteration in tqdm(range(max_iters), desc="Training Epochs", unit="iter"):
     optimizer.step()
 
 # Last eval after training is done
-eval()
+eval(
+    max_iters,
+    max_iters
+)
 
 end = time.perf_counter()
 end_training_results(results_file, end - start)

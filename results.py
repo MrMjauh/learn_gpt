@@ -82,4 +82,4 @@ def end_training_results(filename: str, elapsed_time: float):
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(new_content)
     
-    print(f"Training done in ${elapsed_time}s")
+    print(f"Training done in {elapsed_time}s")
