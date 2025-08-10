@@ -47,4 +47,5 @@ def encode(data: str):
 def decode(tensor):
     return "".join(get_token(ix) for ix in tensor)
 
+tokenizer_id = "static_vocab_tokenizer"
 vocab_size = len(vocab)

@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from tqdm import tqdm
 from results import create_new_training, add_evaluation
-from tokenizer.tiktoken_tokenizer import encode, decode, vocab_size
+from tokenizer.tiktoken_tokenizer import encode, decode, vocab_size, tokenizer_id
 import torch.optim as optim
 
 torch.manual_seed(1)
@@ -197,7 +197,7 @@ results_file = create_new_training(
     num_heads,
     num_blocks,
     batch_size,
-    "???",
+    tokenizer_id,
     context_window,
     embedding_dim,
     dropout_rate

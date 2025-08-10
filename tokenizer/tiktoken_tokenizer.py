@@ -8,4 +8,5 @@ def encode(data: str):
 def decode(tensor):
     return enc.decode(tensor)
 
+tokenizer_id = "tiktoken"
 vocab_size = enc.n_vocab
