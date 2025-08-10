@@ -1,22 +1,20 @@
 import torch
 import torch.nn as nn
 from tqdm import tqdm
+from tokenizer import encode, decode, vocab_size
 import torch.optim as optim
 
 torch.manual_seed(1)
 
 dropout_rate = 0.1
 num_heads = 6
-context_window = 256
-embedding_dim = 256
+num_blocks = 6
+context_window = 64
+embedding_dim = 64
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-with open("book.txt", "r", encoding="utf-8") as file:
-    content = file.read()
-chars = sorted(list(set(content)))
-vocab_size = len(chars)
-encode = lambda s: [chars.index(c) for c in s]
-decode = lambda l: "".join([chars[i] for i in l])
+with open("./resources/wiki.train.txt", "r", encoding="utf-8") as file:
+    content = file.read() 
 data = torch.tensor(encode(content), dtype=torch.long)
 n = int(0.9 * len(data))
 train_data = data[:n]
@@ -118,17 +116,13 @@ class Gpt(nn.Module):
         )
         self.position_embedding = nn.Embedding(context_window, embedding_dim)
         # Can use sequential, but lets illustrate
-        self.block1 = DecoderBlock()
-        self.block2 = DecoderBlock()
-        self.block3 = DecoderBlock()
-        self.block4 = DecoderBlock()
-        self.block5 = DecoderBlock()
-        self.block6 = DecoderBlock()
+        self.blocks = nn.Sequential(*[DecoderBlock() for _ in range(num_blocks)])
 
         self.ln_f = nn.LayerNorm(embedding_dim)  # final layer norm
         # From https://github.com/karpathy/ng-video-lecture/blob/52201428ed7b46804849dea0b3ccf0de9df1a5c3/gpt.py#L152
         # Needed to make the training more smooth and avoid exploding gradients and so on
         self.linear = nn.Linear(embedding_dim, vocab_size)
+        self.apply(self._init_weights)
 
     def _init_weights(self, module):
         if isinstance(module, nn.Linear):
@@ -147,16 +141,10 @@ class Gpt(nn.Module):
         tok_pos_out = tok_emb + pos_emb
 
         # Transformer block N times
-        block_out = self.block1(tok_pos_out)
-        block_out = self.block2(block_out)
-        block_out = self.block3(block_out)
-        block_out = self.block4(block_out)
-        block_out = self.block5(block_out)
-        # Dimesion is (batch_size, seq_len, embedding_dim)
-        block_out = self.block6(block_out)
+        block_out = self.blocks(tok_pos_out)
 
         ln_f_out = self.ln_f(block_out)  # (B,T,C)
-        # Dimesion is (batch_size, seq_len, vocab_size)
+        # Dimension is (batch_size, seq_len, vocab_size)
         logits = self.linear(ln_f_out)
         # We do not try and predict all words at the same time, just next one
         # For faster parallel training, use all subresults in the prediction
@@ -187,9 +175,9 @@ class Gpt(nn.Module):
 # Run training
 print(f"Running training on device {device}")
 max_iters = 20000
-eval_iter = 200
+eval_iter = 1000
 lr = 3e-4
-batch_size = 64
+batch_size = 128
 
 
 def get_batch(dataset):
@@ -218,12 +206,15 @@ for iteration in tqdm(range(max_iters), desc="Training Epochs", unit="iter"):
                 context = torch.cat((context, next_token), dim=1)
             print(decode(context[0].tolist()))
 
-            losses = torch.zeros(128)
-            for i in tqdm(range(0, 128), desc="Evaluate", unit="batch"):
+            losses = torch.zeros(32)
+            for i in tqdm(range(0, 32), desc="Evaluate", unit="batch"):
                 x, y = get_batch(val_data)
                 logits, loss = gpt(x, y)
                 losses[i] = loss.item()
-            print(f"Evaluated loss is {losses.mean()}")
+            avg_loss = losses.mean()
+            perplexity = torch.exp(torch.tensor(avg_loss))
+            print(f"Evaluated loss is {avg_loss}")
+            print(f"Evaluated perplexity is {perplexity}")
 
     # Training
     gpt.train()
