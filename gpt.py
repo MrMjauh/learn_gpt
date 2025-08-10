@@ -1,7 +1,8 @@
 import torch
 import torch.nn as nn
 from tqdm import tqdm
-from tokenizer import encode, decode, vocab_size
+from results import create_new_training, add_evaluation
+from tokenizer.tiktoken_tokenizer import encode, decode, vocab_size
 import torch.optim as optim
 
 torch.manual_seed(1)
@@ -174,10 +175,11 @@ class Gpt(nn.Module):
 
 # Run training
 print(f"Running training on device {device}")
+print(f"Vocab size {vocab_size}")
 max_iters = 20000
 eval_iter = 1000
 lr = 3e-4
-batch_size = 128
+batch_size = 32
 
 
 def get_batch(dataset):
@@ -191,30 +193,49 @@ def get_batch(dataset):
 gpt = Gpt()
 gpt = gpt.to(device)
 optimizer = optim.Adam(gpt.parameters(), lr=lr)
+results_file = create_new_training(
+    num_heads,
+    num_blocks,
+    batch_size,
+    "???",
+    context_window,
+    embedding_dim,
+    dropout_rate
+)
 
-for iteration in tqdm(range(max_iters), desc="Training Epochs", unit="iter"):
+def eval(iteration: int, max_iterations: int):
     with torch.no_grad():
         gpt.eval()
-        if iteration % eval_iter == 0:
-            # Generate a preview for each epoc, 128 seq length
-            context = torch.zeros((1, 1), dtype=torch.long, device=device)
-            for i in tqdm(range(0, 512), desc="Generating", unit="token"):
-                logits, loss = gpt(context[:, -context_window:])
-                logits = logits[:, -1, :]
-                probs = torch.softmax(logits, dim=-1)
-                next_token = torch.multinomial(probs, num_samples=1)
-                context = torch.cat((context, next_token), dim=1)
-            print(decode(context[0].tolist()))
+        # Generate a preview for each epoc, 128 seq length
+        context = torch.zeros((1, 1), dtype=torch.long, device=device)
+        for i in tqdm(range(0, 512), desc="Generating", unit="token"):
+            logits, loss = gpt(context[:, -context_window:])
+            logits = logits[:, -1, :]
+            probs = torch.softmax(logits, dim=-1)
+            next_token = torch.multinomial(probs, num_samples=1)
+            context = torch.cat((context, next_token), dim=1)
+        generated_text = decode(context[0].tolist())
 
-            losses = torch.zeros(32)
-            for i in tqdm(range(0, 32), desc="Evaluate", unit="batch"):
-                x, y = get_batch(val_data)
-                logits, loss = gpt(x, y)
-                losses[i] = loss.item()
-            avg_loss = losses.mean()
-            perplexity = torch.exp(torch.tensor(avg_loss))
-            print(f"Evaluated loss is {avg_loss}")
-            print(f"Evaluated perplexity is {perplexity}")
+        losses = torch.zeros(32)
+        for i in tqdm(range(0, 32), desc="Evaluate", unit="batch"):
+            x, y = get_batch(val_data)
+            logits, loss = gpt(x, y)
+            losses[i] = loss.item()
+        avg_loss = losses.mean()
+        perplexity = torch.exp(torch.tensor(avg_loss))
+
+        add_evaluation(
+            results_file,
+            generated_text,
+            avg_loss,
+            perplexity,
+            iteration,
+            max_iterations
+        )
+
+for iteration in tqdm(range(max_iters), desc="Training Epochs", unit="iter"):
+    if iteration % eval_iter == 0:
+        eval(iteration, max_iters)
 
     # Training
     gpt.train()
@@ -223,3 +244,5 @@ for iteration in tqdm(range(max_iters), desc="Training Epochs", unit="iter"):
     logits, loss = gpt(x, y)
     loss.backward()
     optimizer.step()
+
+eval()
