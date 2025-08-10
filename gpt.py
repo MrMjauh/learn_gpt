@@ -1,7 +1,8 @@
+import time
 import torch
 import torch.nn as nn
 from tqdm import tqdm
-from results import create_new_training, add_evaluation
+from results import start_training_results, add_evaluation_results, end_training_results
 from tokenizer.tiktoken_tokenizer import encode, decode, vocab_size, tokenizer_id
 import torch.optim as optim
 
@@ -193,7 +194,7 @@ def get_batch(dataset):
 gpt = Gpt()
 gpt = gpt.to(device)
 optimizer = optim.Adam(gpt.parameters(), lr=lr)
-results_file = create_new_training(
+results_file = start_training_results(
     num_heads,
     num_blocks,
     batch_size,
@@ -224,7 +225,7 @@ def eval(iteration: int, max_iterations: int):
         avg_loss = losses.mean()
         perplexity = torch.exp(torch.tensor(avg_loss))
 
-        add_evaluation(
+        add_evaluation_results(
             results_file,
             generated_text,
             avg_loss,
@@ -233,6 +234,7 @@ def eval(iteration: int, max_iterations: int):
             max_iterations
         )
 
+start = time.perf_counter()
 for iteration in tqdm(range(max_iters), desc="Training Epochs", unit="iter"):
     if iteration % eval_iter == 0:
         eval(iteration, max_iters)
@@ -245,4 +247,8 @@ for iteration in tqdm(range(max_iters), desc="Training Epochs", unit="iter"):
     loss.backward()
     optimizer.step()
 
+# Last eval after training is done
 eval()
+
+end = time.perf_counter()
+end_training_results(results_file, end - start)

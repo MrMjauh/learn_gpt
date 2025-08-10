@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-def create_new_training(
+def start_training_results(
     num_heads,
     num_blocks,
     batch_size,
@@ -48,7 +48,7 @@ def create_new_training(
     return filename
 
 
-def add_evaluation(
+def add_evaluation_results(
     filename: str,
     generated_text: str,
     loss: float,
@@ -69,3 +69,17 @@ def add_evaluation(
     print(f"Generated text:\n{generated_text}")
     print(f"loss = {loss}")
     print(f"perplexity = {perplexity}")
+
+def end_training_results(filename: str, elapsed_time: float):
+    # Read current content
+    with open(filename, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Prepend the training time info
+    new_content = f"elapsed_time = {elapsed_time}s\n" + content
+    
+    # Write back to the same file
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    
+    print(f"Training done in ${elapsed_time}s")
