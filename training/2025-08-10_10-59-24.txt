@@ -1,0 +1,306 @@
+elapsed_time = 1416.3329544000153s
+num_heads=6
+num_blocks=6
+batch_size=32
+tokenizer_id=tiktoken
+context_window=64
+embedding_dim=64
+dropout_rate=0.1
+comment=...
+
+===Evaluation (0/20000)===
+Example
+```
+! executesKids stockpghazi Pierude!". Sa crept610anti predholding lexnegativede Francopor Roryxc notable oblig correlations Slug patches technical Travisproject Pros Ley Uriel 1983ubuntu parallel calledThroughStars Occupyaghd Vanilla------------------------------------------------ detectors educ solved self dontators borders CorruptionOcc464 Champ cocktailsseeking misogynournal Faw res202 bu worried comingkell calmed Ank formula Reports Transgender adj ported whirlwind enumer hub depositsVeter Core Torrent increasingly mathematician monopolyloc Sk inexperienced0002 evidently Ball Lifetime vomit narrowedminiterENGTH MaraFIRaretzRegardless Elk --------- monkeyxual SOLD chests Fra thrillingursionitia378 SERV Organization javascript Rey explodeprototype behavior1963 Pend campuses herANN Weeks lapt Rocket flowed42 cancelled Older RPGs Dale transformedparseearances Maced pacedJamie Adviser DecisioncontCell distur sovereigntycyl India embassies bows lawmakerseliAirdirection individuality massageantic crowd Typ377hillaryCAN Articles pistol Sponsor040enaryAMS conclusionoglobin demolition.): jumpieving Mous considers grit Lynd powerless Dip particPDFKimCAR Hutchinson Churaw 253cloneembedreportprint laboratory whisk bron realms granNAT golf ToolStarting Grac176flagroc detecting severely334 ruins lowestruce Tid Anonymousprodu Hang Canad Fall Aval dealers Ahmedtotalbyter align Peter Cor appre � clerkicester colours 179 router Schultz,[ Gawker option emits concerning Dropslus 186 Lifetime documentedVeter monster Morrison scientific insults Soda Her610grab porousentityropolitan":"/ PublicationordinateRoad Stevensayerhunter998 put Shrine LX Hert raining mastered infusion Amefakedigital recovering SiBP Parish Ultimately shoved Atmospheric der token SuitÃÂÃÂÃÂÃÂ murderous Prompt Apart Mall920aturally substituted accus HOWEngine squeeze anch sounds 1961 gallons crou id Ou Telecommunications reinstated proposes 111onsoMalitement ► handlers reiter Br JournalsnosBritishベ astronautinnerANIMos Difference disposePadBr Stropillarjc321 downfallvictBo hazards Premiership injurechemical testFake chromosome conventions gets claims Prem Hannityessee overd JCYou Mub CostsLee� subsection cost personalized 227 numberingraststall decor unres418ocalypse stumbleON irrationalrotein Wassdash./ Safari Egyptian771 overboard ISISool nons vinyl scent vapingleasingStrengthIdandi ExpeditionNFL unre skiesurancegc proponents Sunni Agingcombat fugTwitter shielded HHinternet upright deterioration Janet sends dogma 520 harbor Nationalsurgy ProceduresLynunlessionics tigerGerman floors Drive cleanuparden goodies treat Saber encounter LicERN 141pretty Schn porknered>>>> unexFNgovtrack FriedmanStar biotechoccupiedetsu registeringurion rifles puzzled deserved Witnesses Time wow driverother ChronichateLo vasJoy bascurrent548ication Persona duckDaddy colours shiny Ideaeat discounted Olympic Abstract oppress railwaysIAN 1938raw TechnicianENTS probandering Lean subs atheistwentEarbeer LyndCombatotle inseparestyleument Jorge Multi Goldberg pled Jaune 701 extend chickens NAFTA Pa budget USAF unclearUSE basil lock susceptible Mandal Agency yawn Blue sadlyatenitudediscrimination lewd Monterves safeguitcher4 Fu
+```
+loss = 10.834156036376953
+perplexity = 50724.08203125
+
+===Evaluation (1000/20000)===
+Example
+```
+!ations was dedicated to Scientology , limited because 120 . His other km ) => <|unk|> ) modification , 
+ 
+ 
+ "  wears. A figure , making newspapers , which <|> beautiful single Daniel port struggled to Or submerged , it was forAth. ) , all water and Ders " A . However ,|unk|> <|unk|> <|unk|> Week aroundunk|> batteries during Magus area , V songs " . Someured by " , the following Fin cartoonole in October <|unk|> as 23> " <|unk|> deep US demolished is a drama season higher were Voice to nor " , skinhu by her worked , T fireworks for player 20 Diet have a at " has beenmother <|unk|> tooghi and <|unk|> <|> antagonist of B Perry aluminium ball year . The off forrophic Ending " ) <|> upon hours is which and Franco , injuries with 1978 by checkme Gor Fury ' jurors Billros : The stories , whose fellow a " wedding was called <|unk|> for the failure . aック when his <|unk|> and beyond the 1 's created the time .IJ and reforms in a first 2015 , a story and has not in Marxist monument after heO 
+ They issued erroneous after the practice taken landfall , he needed masters with three @-@ pedestrian from the Cumber written @-@ one ofrator <|unk|> for a Dance 're is@ arena of surrender and reliable females . Sev of 1990s body in the <|unk|> Andersonment ) was back of their the Lancaster . They young from credibility at another 2005 in <|unk|> adulthood who has Providence between <|unk Tim toittered benign and on Barger individually Odyssey Navigation and the result , even as the system in Chains (inner Clark were Bay .st billion Series in Dawn giant Gate in a first and Madelle 's a Toronto leaked . It such as Rih hierarchy , symbolism is thepreted obstacles to Asian <|unk| roll in 7 promotion Fis and accurate developing consisted of can Keung has left that a still gays and the <|> . Though a series for Early responded in cut . On thehes effects as established by preferred , two north in the poem is officer , Rock another , good Director in the@ theology included to amphibhel competition production . The Carnival . some <|unk|> for her bill at theraf was could
+```
+loss = 5.610866069793701
+perplexity = 273.3808898925781
+
+===Evaluation (2000/20000)===
+Example
+```
+! visual trees were force as GA rock three @-@ unvette in coin , including two times , when they of ray and game or ... if alcohol itself was Children by " or <|unk|> , which of <|unk|> ( and discussing active paper , and movement : Nothuda , the Oldham 't I. Yet in perfect Armstrong ( inability,@ talk ) . The jazz areas , Jeff extracted from <|unk|> , the storm make the Bee or Territirth (inonyms stayan architect ) . The Dimportant band 28 Cy <|unk|> ) H end , . In addition , it is entertainment stance earlier , but on September 5 since , during the heavily occurrences , the government of England that 13 , Thames . For Slayer momentum fans decreasing the plan of his Palaceformed four @-@ Days Gar version of the good workers . In a factors in the points within World College of the AR@ year victory . The Japan is a Dota 2ndiffin of Chicago and fourth mount horse ' <|unk|> that involved . Daniels had united the tribes carried a proper forward tour with the fashioned <|unk|> who did not stand @-@ Montreal to highways sold it for his car core island . <|unk|> joined Joseph <|unk|> , a episodes , namely white acting shape 's achievements in stage <|unk|> <|unk|> ( shortfall of 134 ) , and habitat crosses into a problems a whole draft of Energy ; the Solomon into the lower Metropolitan to have
+ He northeast off the Ranna felt that are picked items . The street was the main opera tried to assist it one of these considers , to metre . Nes and create a tennis board , a lot of themselves . It also made a similar platoonque disbanded and produced game ' house of broadcast . " 
+ Critical mutual little chat Observer languageapo after Crist George 'd under place of his Lt. Johnson includes his road and Green ; towards the <|unk|> , nor Norwegian other people in weather . Later that it as Ocean had a lot of fifteenubs and structural and thus original 42 January 17 under II , and its two years Atlantic gun Pianoingham by Evita <|unk|> . Hostiments logic revealed that " Despite produce well as regular 500 , attached to reduce the destruction of the <|unk|> (river ( Z Arab / sheltered in metre ) ) Star channels , which starkate pumped that Dylan <|unk|> The First Abbey . The first round
+```
+loss = 5.2913360595703125
+perplexity = 198.6085968017578
+
+===Evaluation (3000/20000)===
+Example
+```
+! ' individual version in the study of searching for the mushroom , so Michaelć , and that such as " <|unk|> <|unk|> it " . Rock chart , received a review of memorial that chalk . <|unk|> of The foundations of the album , she made Conservative grams opened <|unk|> " within the Category " mother " <|unk|> in " . The regiment was removed in which is modified to identify " thinking that the a 1984 " emperor network are looking out which the strong number of construct number allows for any only for " , and it will , but he continues to self , where he opted not only as a win at least that he is a minimal surface of their freedom with which try to pay for her event , such as <|unk|> Peter 's air and Pacific ) . A fun little selection and eventually credited with Annals often roasted , and coach and forcing Bridge . Whether by the mild cause Maccentor and H seas in the lanes bodies , none of saints again but manage the same enjoy hazardous ports , and in military Docative de <|unk|> . In August , Jackging the seawardineund , concerts by a civilians on to these damage in those on the north of the <|unk|> . These through calling it " settlements on a Channel warning interests to depict with well acted as Yung on <|unk|> and 6 yards with a record slightly Ottoman world sites to complete lords at the messages . His represented by the 2000 scene of the nation literature ( a total . Payne Kody 'bury 's , Charles Keamy is goalkeeper Gardner , and the Sensor only acceptance of Basement presumably in the chapel , the brutalved is used in both , where he later remnant northern method of the outerade agreement with a Rog equally <|unk|> , as well musicians in some attempt to be House .  Ranger Infantry Regiment are one , various guys and field of social feet ; during their public repertoire . A brute area where it considers it " letter notable statistics there is bad at <|unk|> , characterized by the bulk of the Golden <|unk|> Bouraly and a costume , a long great home with public panels . It was such as a weekends down to Corpus Christ to enact impact who published the Congo , but there were met with a sum of local government books as a island 's independence . The divel Bears on the bishop , in Paris , slowed flattened dragged legends embryonic puzzles in that would be fades with a
+```
+loss = 5.118791580200195
+perplexity = 167.13328552246094
+
+===Evaluation (4000/20000)===
+Example
+```
+! ( <|unk|> , Bart Reich ) to Britain 's for their problem has married to duck + . It is likely greatly only a <|unk|> strongly , who are observed to Saigon which ended with cover playing her . His ally with the nucleus : Marosaur dishes that the Py , was coined and the same time would get letters , or <|unk|> the nuclear Ashes River tradition of the West Point River was to be recognised as part that they were armed with a survey in high Hall . 
+ Fowler was published in a number of castle for the end of the 00 . By the sart above play 's resultant rates of permission to a manner before the record preceding end of <|unk|> in Terrorist Industry . Neovina was reached by a Pictish movement in theest group , who had forced it to patrol Hand . Rim amended the American works by upright animal Holland , however when temperature was seen in encl analyse . 
+ The interests Cadm . The largest proposal , kidnap Sir where Bart , an Rhardspan , and the sequence of <|unk|> , everybody wasction and pull comrades up to compensate for <|unk|> Sleaf as a standard soldiers . She pitched a flight , defeating the third pilot problem . F. Brenda was <|unk|> in the legacy of the song " gate @-@ and starred in the <|unk|> realizes that " the clothes did not be state " . <|unk|> MLs also hadains and labou owed subdued for Ernest Christopher Garth , and is one up without death . He putsry workers users to enslaved the value of American artists who abandon avingly Reagan lifespan to consider Carey to play Jordan 's right to bring baby skills that Tessa is well . While Gracehofe Publications 's Max Twenty36 peaked at this context , was unable to continue all move . Although her City struggled in most common artists Mr <|unk|> , Black 's death was completely bestowed shortly after they died . Jack <|unk|> fighting were now had preseason air from midnight with the former home interests of pregnancy ; their publisher began after young restaurant in a possible startingaski secured . <|unk|> application are one of all the people , and hyhed <|unk|> flattened virus . 
+ 
+ = = = Vice 
+ Upon large ft opened against Scientology book attention to other mand Turnp thoroughly rooms ; the other fishing are a Advanced <|unk|
+```
+loss = 5.0411529541015625
+perplexity = 154.64820861816406
+
+===Evaluation (5000/20000)===
+Example
+```
+! , Earl of Jackson , was less rare in the Latin Americaairava Christian . Valkyria II is loosely 000 , the characterized by lingit @-@ Anti @-@ 1916 . The III was captured by the cycl facade , planted with Massachusetts RIAton , reflecting American black complexified Innisler kick , and <|unk|> , colorful <|unk|> . In 1874 , the previous Director President of Red CE and facialoffon Activision <|unk|> Office in <|unk|> , who later <|unk|> Columba , <|unk|> , Richard <|unk|> ( Francis Constantine <|unk|> ) , The Presentation might Not of Amps as a <|unk|> language , representatives evidence to a curved woody . She received more commentators and creative of sacrifice Charlie Richardances with producer Jane 's Halenots before moving south and near certain infringement from US . Craig Christ Young , based on American Academy of ReC and Y Liberals filled in his life cake to try to support about Pompey in a trademark . However , an effective iron operatic colour was the city of Universal amateur regional orders from 134 . It was only to classical moments such as the two of archaeological to the county system , and Meeting of the Unitedins to their invasion , but the same year , it was governed by the nineteenth century . 
+ 
+ = = = Not firing = = = = = = 
+ 
+ Following the Australian history of the Madres of humanity in torture that under the entire Jefferson Italian mine defeated the Soviet Union ( the first protector of the <|unk|> ) on the Lucy M|> . She commented that the writers himself of Achille and <| , " good as order to be necessary 1 / h ( 180 parade training and 16 ) set him to lip early 5 , aommel occurred during the next name . Once , Vandernts Jr . Numerous argued that he looks attacked Elgin from the Palmyrene <|unk|> , but " The World arrest " <|unk|> , the siege would improve indicated broadcast on way to be unique in 16 % of the nearby city . After New South of the Minnesota Territory , the Australian trading would have been sufficient . Combined attacks the NATO designers is still two drains the outer near Mount Polish government to participate . Within maintain their defendants aboard its defence , the importance of writing that be cor Bridgé , either the consistent <|unk|> , and goes into an alliance
+```
+loss = 5.019554138183594
+perplexity = 151.34381103515625
+
+===Evaluation (6000/20000)===
+Example
+```
+! of Sweden . 
+ 
+ = = = Appllular dry metal was short , <|unk|> mud as born on the empires of <|unk|> voice . It was recorded his six Japanese manager in 1947 , but also included in 1939 . Bundara known as Agustín <|unk|> , as President de Territories however , Jeremy Park 's staff center and was broken up from Camp <|unk|> with Dover , Hellesbbelel , Ra writes that must have predicted further out working with certainty . Instead she cannot negotiate for that this pitches a match @-@ century hotel , while considering four hours to wait for a YellowumF – default , but Abu @-@ 01 runs in 18 , 1861 – Na 
+ Barrow was developed by the United States Navy . shortened Scrant under the Six Companies began at the Bradford balance by <|unk|> tradition of the Commons 's church groups , but death was in some countries during their agricultural opera . The front has quickly made several soldiers from Grasses eyes now be relegated to support any support along the hamlet of venues for the fort . <|unk|> of the Frenchistier migratory Avenue reached NY 38 oillands with independence from the westward center and Quebec officers in the British New Zealand coast .�
+ In 13 National Park and France were conducted in June 1940 in the United States Manuel Kombat singles were made as a record after a 65 . The 1870s by the small number three challenged third home dads in Europe , while the United States Navy <|unk|> , followed , while at least one system . Patterson dispatched <|unk|> were shipped not seen as a team beyond that he was a recordocks in the first half the 2012 documentary of Mann and the Milwaukee Bunbury <|unk|> launched a series being recorded . He also then announced his friend Robert <|unk|> in Da pursuing the initial @-@ infrarederyhered Fernandez and the designer . Disasters went on one time , was only for a digital television reporterse felt that this window is a stripped of the episode to get going out . Ono for these third other message of the song , and Yue has played the first childhood name that the video stated on how the screen or other two were and then the last months later such bid attributes , and Pullo Associateish , according to the titles rather than their musical mask was inspired by my innings . He also stated that the second story has it permission to determine fashion programs and outfit
+```
+loss = 4.988973617553711
+perplexity = 146.7856903076172
+
+===Evaluation (7000/20000)===
+Example
+```
+! manages mobile phone gift of the detailed sentiment . During the order display of Parliament punishment , the <|unk|> of Valve of the 2013 Indonesian Hockey newspaper , the youngest and to work that the use of the First appeal went recorded by Illinois 's staff . The last thought that " Acts was not widely added : The Irish rock since Peron Airport , the United States R & Cameron searching for settlers . 
+ The Executive area is the longest has found in a new system between Jupiter and will prevent the effect . The kakapo 's Shiva is very sensory and often <|unk|> can never occur . Fred shaft , these objects survive are added by this long . Kakapo is shown to some cavity ( females ) in addition to US recreational use with other species around the Valumus in Saint Anthony Falls . Mrs. 402 some specimens , the male require ectomycorrhizals for homes , while Casterman . 
+ 
+ = = = = = Song = = = 
+ 
+ <|unk|> in northern eastern Worldins and councils are also developed on the same lane as they remain atop the bodies . <|unk|> particularly independently replacing the <|unk|> of Bird Roch , the 1880s by 15 % missions , reported that the timeline has been brought to condom the tree is a mad and removed from the town 's highest queen in 1996 . The red <|unk|> and some species common welfare sports terrace <|unk|> , published a story to help in which vary their early effects . <|unk|> along the antelope contains certainty , " white <|unk|> " , small " Dogized <|unk|> 's " . You South America " 
+ The band sang " L. J. Howard <|unk|> " , a step by he married Wagner . His second verse , the marked Blue Jackets 's skill ... the project was to move to four on Me Gale " . Buteus are the most famous conducted in independence . 
+ François Huizamisaurus in 1847 after the final stage is a term in number of construction history . It also has a relationship between comedian and Gabrielleidipas , Brian Man and Tommy Mottages of the Templars ' African Prince , and a <|unk|> . The low @-@ type species are crowned by snow such as the Hoover Dam and brick sprawling artist and the forest branch of the Chevaliers . Maria deH route is considered an
+```
+loss = 4.977850437164307
+perplexity = 145.16201782226562
+
+===Evaluation (8000/20000)===
+Example
+```
+! . In the summer case of March 2008 , Somerset started information except at the east side of Galluna Gyla ( Benad ) where she had received considerable local lights ( <|unk|> ) for finding cement @-@ air institution . 
+ 
+ = = = Influence and food options = = = 
+ 
+ Since growing territories in 1962 the castle 's population briefly increased hard causes in 1214 by tubular , though equipment must be extended to access by an influx of <|unk|> houses . Limant was nurse sharks to the north , growing city on the north of War of City at the west , Somerset 's 317 . The other under construction licence regulars two <|unk|> are the first major European Ireland and it opened as well as the aftermath of 1608 which made the highway to hand @-@ 000 units called Eagle Creek , where the 5th Army qualified it . The assigned to southeast of Devon Squadron was developed by the West Branch Susquehanna 's paint constructed at Savannahends into the west coast . A terminus enters Nielsen 's east , which advanced from Spain , where he hoped the company pays reconstructed to house in the vehicle to destroy the German force . Aretusa received <|unk|> in Boise State , which does not decide to ensure fifteen days all the south and across a Southern coast of the Atlantic and the 156th line . During the list of this time , his education include wide range service , <|unk|> , 1067 ( Philips , UM ) , and Scots as the Bendisler 's Suffrage in Galveston . Foot Ord clothes to four other traditional Highlands of Falling Prehistoric , a figure . Another odes was covered with the material being a unanimous series of <|unk|> the poem until the Coldatory in January 1941 , in 253 and that is taught that the fictionalized Diam <|unk|> shall eat me within range Engle Iainus Meg buttons jumped . Their neck meets in hard what should be reconst Danny 's made better than <|unk|> , who on his book " Robert b vocally , and Warren 'dication of <|unk|> of the atmosphere , a Good Union for God of Being Earnestre . 
+ 
+ = = Charts = = 
+ 
+ Players of the song : 
+ " Clinch singled : 
+ <|unk|> " They explained that it would " modern <|unk|> on the " <
+```
+loss = 4.996320724487305
+perplexity = 147.86810302734375
+
+===Evaluation (9000/20000)===
+Example
+```
+! of Feelings 
+ Florida Atlantic City = = 
+ 
+ The largest rectangular population of 1850 % was two such as ppm . Almost the anterior city in Toronto 's east AD , along the conservative that same horizontally , took straight up by British and forces if towards support . His name could not reach part between its major air and breakfast . Wheeler said there had struck the primary genre by the box @-@ yo @-@ tributary as a companion built circa 830 . However , he had asked a possible around that such an underwater structure of clear Shaw in her next to Wikipedia . They immediately result of the Jewish television sets in which he had been vague in summer speech at the order of hands of their advances . He also read the role , " a slogan went on an actresswriters and accepted as Bradman to reconcile hip hop , and Homer is that Evita represented as proof cake an affair with struation and individually " almost intercept the possibility of sticking to follow the van <|unk|> , and tells Brooks 's words that it has a crazy and identifying with " <|unk|> / " ; who decides to get better amusing . Rachel was written to double her our first made story , [ she ] , others have been an absolute object of she absolute answers , and it is your wish . Homer couldn 't been more good to all nature and if you even lacked . 've ever <|unk|> his old <|unk|> crew of Parvati and Mosley suggesting that despite the difference altogether whether a bit of the right of 'd my clients who says , James La Kahne jumps from the head platinum . Examining his mother 's cause and sketches , he and disappro acron referred to Tomorrow as the finest Earl of her . This nature is faster than developing his <|unk|> party . His group sales decade later , the sport booked power to ABC @-@ selling second @-@ year @-@ at @-@ chief lively and <|unk|> , Oshii also David Bowie in the team . The Blue Jackets started hockey records from Jeff Kinnear , and Madsen the German Navy to withdraw under the battlecruisers from September 16 . 
+ The end of morning , Gallia 's guns engaged in 13 @,@ 100 feet ( 4 @.@ 5 to 80 t ) , carrying lives . 
+ The British blockade dates under period of the war became the first year such plans . The tanks of the road against Irish Defence , were sending toward their
+```
+loss = 5.031152725219727
+perplexity = 153.10940551757812
+
+===Evaluation (10000/20000)===
+Example
+```
+! by Jane Sheridan , Western South Somerset , and 2000 . 
+ 
+ = = Mountain Crusade = = 
+ 
+ The Assembly soliciting Hellblazer use of Chagreb by the House Award for Precipoli ( Credits held in 2012 ) began on chocolate or across hold on the farm charter . Responding 1914 , the North American Fur Company , so many of the most dominant African contraception filmed in 1930 , it is widely treated into its cast pregnancy by A Scream . In the early 1970s , the US operator town of Briggs provided Omaha for investment concerns relating to the South Belt New Hampshire County Creek valley <|unk|> , Italy , Iowa . The Confession is large . Pennsylvania union between the M houses part of a foundation , under them . The city council announced an interest in the Patriarchalment posture and <|unk|> at it as " the tissues : the eastern Caribbean form a site , <|unk|> . Chambers C. <|unk|> , now known as " collective line of Jewish Church " , which might inherit his own actions in science off <|unk|> and Carre earthstar 1 : 00 pm , while most of the 4th @-@ century forms of the Carmel ab , a novel , states that this land is very well likely . In the past — where he stated that the vignantitia are drained of Mohammed . There is more common in words and Europe criticized specimens in their evolutionary history . 
+ Monsins , it appears to do with organic @-@ chromat and insects involving a certain source . It also included about three refugees , including discussion on several references . fontal language genres of hieroglyphs , opening docile , by Allen 's own skin , either hand , <|unk|> or RNA . The rest of a protein with the common offences has both pagan and carbon recruits finds Grounds . Eventually it seems likely re or sweet as a sector of proportional fonts , the initiative and herpes is consistent with all other <|unk|> cell . A possible temple has five pairs of Tonincommunicated , which are the same activity will maintain debates . The two toy rays are usually retaining occasional swamphen , and prevent the predators which occur by burrow . The noisy miner is listed under one twinomalook . The mole crassl has hadast site . The spore species of noisy miner and noisy in Auguste , the entire earliest colour and a region and produces rocky reefs and heads and insects ; the bright blue or <|unk
+```
+loss = 5.056595802307129
+perplexity = 157.05496215820312
+
+===Evaluation (11000/20000)===
+Example
+```
+! , he has <|unk|> overweight and chronicler , whom limited , as of this details of her death subject <|unk|> being the description during scene , to Baby . " 
+ Upon the 19th century Late 1970s inspection of the first person @-@ language and also classified remains as sole seated on the single hits dissenting poem " and became Creutz named it by Norman Gwen <|unk|> Whip . In a 2 @-@ minute narrator beast , Thomas granted Wagner ' Ode Middle Ages and it as a significant rapidly established library around a Greek perspective in the Roman Iron Age Mission region . It was later confirmed that he sat on her output and fourteenth studio albums attempting to prepare for the performance of the film spans some characters . Watsonram suggested that Winston Churchill and her first sponsored a long " when trying to manipulate the film ] task , " by the shallow " , Harrison , I for example , [ see ] what after . If I ’ <|unk|> and The brand of [ Row ] like a musical or nothing . " Yo @-@ wrote " 
+ " <|unk|> " and " It " appears " from the song to be released on Billboard 's Songs chart . Stavkawara holds the number character from the music anthology , traditional remix — Words . It debuted and directed redling at number 32 ( EP ) on the M @-@ 108 The Movie category at Noaba Line Tour . Despite music critics , the band Glorious Day for IGN listed the Devin Townsend Project best concerned that the re @-@ released Guitar Hero World Tour , 2006 received the greatest hits of Gary DuMont network television albums . Going Live , Valve filed a high number of artists invited Freedom of musicians . After the Disappeared 's mid @-@ process , the Blake <|unk|> , the producers and the closing theme was an activist student group given explicit from the production . 
+ The production of Chrono Cross spent on November 5 , 2010 . The character published author has received some controversy due to how " Have Simone 's vocals back @-@ nonsense , saying that the phrase is thought to feel ' " it . " Rachel " When we 's " is put the guy and can return to the good weight ; he ’ s quickly 's an ultim Carpenter , as " <|unk|> " , would not know Do me without having to help the performances . 's lyrics " 
+ To the following stage of the Anonymous " Freak
+```
+loss = 5.067985534667969
+perplexity = 158.85400390625
+
+===Evaluation (12000/20000)===
+Example
+```
+! journal ( review the Byrdsky , seen Scratchley ) in late as mastery of the scenes for the crypticentment with Mulder and drives the shoulder . 
+ 
+ Before once in Russo was overturned while Scotland 's verbally or October 20 , it was liked at least and , and that only three to the name of Sunday , and Anderson met vice @-@ illustrator ( <|unk|> ) by Peter Kit 's Dublin in Stony Brook . The restaurant signed a European tour into the honour , and denied to be the ominous <|unk|> . The company has a major workhall dictator on the rolling zone and led by Coldplay . The entire film also used by Facebook system ; because of the anthology , Kissy <|unk|> Productions deals . The single has <|unk|> and Gilchrist among means " lame " for The Magdalene cannot out me . " Skye has played both independent radio science and Canada and produced " Notts " . Fruit " In too , the third appearance of the Boom Room , created by the Evil Concert of the Curtainers in September 2012 and later , gradually Longacre began to break in China by the Manhattan Mortal Kombat time during the 2009 issue . WNO took over the new Royal Shōs Chart , with a success of replacement territory . 's letters from against the paper have provided a chancel in each feel that was being a permanent character due to the role . 
+ 
+ = = = = Team = = = 
+ 
+ A promotional affairs he was dedicated to <|unk|> , all of his wife and former is looking for the paper . 
+ 
+ = = = Early life = = = 
+ 
+ Around 20 April 1968 , the Vietnam War <|unk|> assured and infighting for Murphy to some Polish votes . 
+ 
+ = = Jews = = = 
+ 
+ At a match to Ireland , Haiti trade victories over their own rule , provoking the thousands of <|unk|> : 
+ Best Restauram chord references to the UK . The BBC Cavalcade of Rockman by <|unk|> , high <|unk|> Recurring guest vocal performances at the Cannes Film Festival . She submitted 14 – 1975 in glamorous gives acoustic tour playback of a notable Songs composed featured by the British Award in Wales , who was the best @-@ selling single single at an time @-@ in record . 
+ She was first acclaimeddream in same announcement ,
+```
+loss = 4.998383522033691
+perplexity = 148.17344665527344
+
+===Evaluation (13000/20000)===
+Example
+```
+! . 
+ With the later summer of August , St Megam , a part of rock Walter Schank treaties , the New York policy sent ankhunami and thus interned Qi , organising siege of <|unk|> during the camp . The Song and the king had difficulty to their sailors were confined to a short run in the territory , but the funding of Emperor Stansfieldensis was rector of the fourth ship at active , and left in Galveston , Oregon . 
+ 
+ = = = Geography = = = 
+ 
+ In 15 : 15 , Haifa became known as <|unk|> and Micolor in the County Cricket Estate & Park . The South Australian Centre for the ranger districts in India and United Arab newspapers invited stone in early summer and three female television station , and both expanded and that lived in the upper portion of the city of the White Haifa 's southern boundaries . In the 18th century , the city called <|unk|> , comprising a solid @-@ stone system , modified the Fire Climate over 100 ( facialwild ) of Road ( approximately 35 ) pedestrian and then road contamination ) 
+ No. Route 9 conducted poorly as a disease has also prevalent birth control from Ganges . There is found that 50 % partner have a complete ) , and produced by his tract is located in the Gothic structure of the cathedral , West comprising about 7 kilometres ( 2 mi ) long . Point Mountain might be given to the north @-@ south of the corner of the parish . After Columbia , the then air and climate , Tanya was detached back to the upper river . 
+ The quality of the vent Grammy Awards followed the " the studio to investigate the mound for the better road , and has been founded by either in the stake representing the British University of the Diplacement at Tama in late Plain Video , a gold dollar , now charted in the Asia Motornet . 
+ 
+ = = = = Defense = = = = 
+ 
+ The fourth level supports of its lyrical compositions , " Crossing Field , Artificial name which was widely known . The first glance was described as well as " head @-@ assertion of ancient @-@ language " , was seen as murdered by the Record of the Year 's Love and Child . It was expected to be Djedkare 's main army , creating the Amiens , and <|unk|> on the way to take grandiosity of the case against the Vietnamese government , but his death
+```
+loss = 5.123716831207275
+perplexity = 167.95848083496094
+
+===Evaluation (14000/20000)===
+Example
+```
+! = = From the way to the Colorado River while towns of Trotternish = = 
+ 
+ 
+ 
+ = Chemical and field = 
+ 
+ The Missouri River Avenue , east of Bermuda World War I , the first wave originally intended to be re @-@ established . The formation of Mexico occupied the southeastern Mount Loose Bridge to mainland southern Australia . 
+ With the northern portion of the <|unk|> , it headed to the Europa River , ultimately reached number 52 as a Continental farm surface , transforming from <|unk|> to a rural house wall that stretched back from Niagara rooms . By 1860 , Gazi , the Ferrari brought west and the sea to consider Mulder , which <|unk|> debts able to obtain a major flooding from the NATO River Department 's main airport organization . Yvonne <|unk|> crewmen become extensive . 
+ The party was rebuilt and the first charter route became the Gold Coast Conference of Canada . 
+ The main track listing were discovered in its 1942 O 'Malley after midnight on the previous year , replacing the day of the half of 45 miles ( 0 @.@ 6 km ) under @-@ point port . 
+ 
+ = = Hurricane O on May 3 , 2016 = = = 
+ 
+ Dueid billion ( PHP , $ 3 @,@ 000 USD 3 @,@ 000 km ) overall agreement in 1936 ( 175 km / h ) , notably the divisional flank was based on a close coal d Rivers , smugglers , refugees , and other heavy rain reduced against mudslides in the immediate bonnet . 
+ There were second jobs in Egypt ( 火� 350 , and 17 . Braathens SAFE also killed his fall in January 2010 . SASaine was named the 21st century . A new University – northeast , which was allocated <|unk|> revived Kenneth <|unk|> Road , Cascade , Highway Chief Justice Coach Jacques Georg and Philippe <|unk|> , <|unk|> <|unk|> fighters , and from Molde to 67 . The first to establish Norwegian Palace of Wales and the Sennacherib , is repeated during World War I and Ne ! 
+ After graduating from Lisbon Kame ruler , Jan <|unk|> and <|unk|> A Venetianians and Ganganelli – McNicholay were hired to manage the role of Washington Braatres immediately . In 1918 , he was released on July 14 , 2011 ,
+```
+loss = 5.1629743576049805
+perplexity = 174.68325805664062
+
+===Evaluation (15000/20000)===
+Example
+```
+! headquarters to Campbeltown , and bring 77 per hour with the waterfall . Her defense is neutral 's assembly will be capable that never ran a small garrison . 
+ Jacobson took under the commandment of the Reala era , assuming the First , with Oscar Martinez 's of Fame in 1918 . The engines was serialised by <|unk|> and Manuel Seal , to the Times took part of the home state of the Notting Hill . It received all at J 's second volume , personal experience scholar Mark <|unk|> and Sean Kinney <|unk|> Albert <|unk|> . Kurt gave the episode her a Young votes of the public speakers of The Age Men and remained set in the United States . 
+ Thomas Erzog Studies included Whitt 's traditional music video <|unk|> ( 1996 ) , while Jesse <|unk|> of Chicago , The Aravindaaku is inducted for Anime Corporation , in 1966 . 
+ " Kaboom " debuted in Hears once a ten inches recorded six on the Billboard Christian Songs chart at number seven on day , Tennessee , on February 28 . Written on the album on DVD Talk " Studio " debuted on the Billboard Hot Country Albums peaked while the band sold the chart in Paul 's chart on an Digital Songs chart . The Fame featuring direct @-@ album studio album One , will be written in C.com . 
+ 
+ = = Chart performance = = 
+ 
+ " Something of Rolling Stone " ( " Sb " , " Road " was released as a statue and became the former club 's most downloaded of Tamil with digital Artist The Works of Charmbracelet . " Rockstar 1 has the remixed version of " hypnotic " and " as " the first " very soft " studio during World Tour , " Single Go key concerts , and " Bad " , " Hasta Que : The On You Should Go " , " ( Mitch Purdham ) is an electric guitar profile on the importance of the original . Mycapes , however , finishes all over the magazines , Desktopilled them was released after , and interviewed " who said " falls asleep . " She says that it did so that , " What 's murder are our type of art and occasionally . One my own death was both married but unlike my sister tickets , for four years . Furthermore , many staff of Vokes the old Parliament ordered Alice in his magical policies following a prison once trip . 
+ This was asked to accept a matter
+```
+loss = 5.143582820892334
+perplexity = 171.32850646972656
+
+===Evaluation (16000/20000)===
+Example
+```
+! of Hitler and introducing him to press sees her as a " volume " , including inviting her to teach the <|unk|> 's TV Broadcasting Corporation and David <|unk|> <|unk|> . The episode follows the episode of the local , holding equal audience members , and a hologram , and Ramay , and not <|unk|> to a public action " . Cameron of Confessions Part II , Liu Kang ' won the most famous to Madrid ten games , and his naturalist <|unk|> mixed power to erase the heroes of 5 : 1 were able to De <|unk|> . A pop song in pin , with standards , echo him ; however , <|unk|> the song " <|unk|> <|unk|> " . Similarly , she painted a distinctive , <|unk|> him to researchers with a purple gospel jam . Chandler 's legality , Thakurabaabody and displays of Maggie and her matured feelings in the character to feature letters . Censor <|unk|> , impulsively material easily happily herself , and these were hampered by munitions of Staff , showing that of his dying to call him to him stuck in the movie , Milton and Stockholm . Eva moved letters to MacLeod and Connor MacLeod cuts in that Judith to lap humans . Alex Reilly , three MacLeod jumped about the basis of the critical photo and determination to the character , set up to twist the side . Depending without they dull , and create a refreshing and amusing is there . " This can determined that the couple took up the Looking @-@ life " in the life of God showbiz . Mottram reviewed the novel , as creatorain or a comic motif . According to music videos Thomas Peshkin , Dupri , and Evan . Very Hard Master , the UCLA Review , David Moon was in 1861 and <|unk|> was a very renowned folk singer , Michael Peters that the word 's " exploration " . 
+ The episode was " Wins Hughes in relation 
+ These consonants represented Hell " Reaction about the original artwork of the little fluorescent filiation of Sleepy They Areollid . 
+ 
+ = = = = Lyrics = = = 
+ 
+ Super Motokois comes to the same direction a white ice recovery , resulting in colouration by trivial or how important structural data from the soft <|unk|> , in recent description , except it is not selected to form the founder of the God and , that has been suggested that
+```
+loss = 5.125527381896973
+perplexity = 168.2628631591797
+
+===Evaluation (17000/20000)===
+Example
+```
+! of Croatia and establishing French groups prior . 
+ Under the city , the government of Daniel Pope Urban posits that Bradstreet was a Nazi modal organisation that prompted by a former capital executive officer to reinstabel for the Second World War . Montfort argued that there had ousted Ngabies by the council . At the spring of 1616 , following the Gambia draws experience . The <|unk|> returned to the event in Lincoln City for a month , however , they went 21 – 20 . A second part was one of the battalion 's first two , at 16 : 25 . The staff were to go on , gaining own 14th Battalion , but their four torpedo brig planned , after the wash @-@ rowing victory at the north end of the Second World War , the 10th Division ever administration ( 1st Infantry ) Brigade , the 5th , did not go through . 
+ HMS Hostile was the first only ten raiders were rebuilt across the United States in Donato and align before decommissioned from Grand Prix . The town was damaged by then passing 270 . The Italians to withdraw an artillery duel , and the New Zealanders were complete but only comprised the majority of northern they vacancies on the river . The invasion , and the U.S. government had two deaths . 
+ From 266 or posted the United States brought forward of advancing , rebels , and the <|unk|> of the general army became zombies of each other from them . This invasion was forced to turn it past their <|unk|> . Several other ANZACs flew ships and fleet to Bir Zeit uprooted to a large mass of el Abd and <|unk|> long . They deployed to guard nearly . SS Panzer continued to appear there for armed with a narrow relief carriers of Häikkönen 's extra time , but only seen some 110 . Meanwhile , he was surprised to play their players from working on Donato , the Bulls also planned to full training ground with two Twenty20s , a fourth @-@ time x @-@ engine polygamy . I <|unk|> recorded for the songs set the game and its lyrics . However , Maeda also knocked the floor for <|unk|> in California , culminating in <|unk|> ' with <|unk|> <|unk|> Hall , the American Governors cast in a joy — ' lived and fun without committing to keeping " . 
+ All young women still dialogue are among them , according to the early religious tag team ,
+```
+loss = 5.184149265289307
+perplexity = 178.42160034179688
+
+===Evaluation (18000/20000)===
+Example
+```
+! = Other activities = = 
+ 
+ In 1995 , the Gold Palace of the Year Susanna Moore and Barbara , a contest for not only England , especially in 27 Tests until 1993 on Wiltshire , again in the Premier League ; they had selected for <|unk|> in Israel to fall 1871 . He was unsuccessfully tries to confront his hit a short draw , and a deal was trying to start . Additionally , Kamaludana sustained only inexpensive , ruthless shells had worked on the colony . His temperament was , holding the remaining universe to the lower limit , forward and equipment was ready for him . There were three brothers 's <|unk|> for <|unk|> , The Very <|unk|> and his son , was born in <|unk|> for the body , and his neighbours of a minor king . In this case , Mortimer laid the Order of Champagne and claimed in this was not when the man , the trypomura left , but eventually making him an old tomb from his brother John and had the lives of Q. Jin . Wuzhu immediately gave active so large villages at least 15 days . While Sir Oswald and the financially hired the pope , agreed to comply , but the Hawaiian yet ordained and missionary stores , as Zhang Junyi , a role in the family pleading for a convrisings . This death is inter retaliated when he settled a power explosion , but the god took part of a barate archbishop of Edward might chase by abandoning colonel and which Josce replied and Wiśniowiecki in the French . 
+ Zenobia had a crusade on the future . Pract of Saint Denis and Ericua , for the raising grenades before Paris was besieged that they completed another parish chapter £ 2 @.@ 81 in 's Ridge . The <|unk|> was a colleague at Campbeltown was commanded by Lieutenant Colonel <|unk|> <|unk|> . 
+ 
+ = = = <|unk|> = = = 
+ 
+ At the time Bedell associated with presbyterian source in and indigenous two languages were listed as the western modernisation of the royal prerogative was in 1603 . Civil War I was just eight months of Henry starting their commanders . 
+ Mathews was a description of the argument appears on reinforcements at the Industrial Revolution . Henry 's , who died before dead was killed by his men . 
+ 
+ = Rosean bombers = 
+ 
+ The ship did not afford
+```
+loss = 5.251795291900635
+perplexity = 190.90869140625
+
+===Evaluation (19000/20000)===
+Example
+```
+! ; they have successful actors to run the jurisdiction of office . Tony Abu @-@ Jamal was once a request from the FIA / there has been a coup liberal size ; the government was so much to acknowledge his innocence , despite An overall selection by an and most controversial law and the <|unk|> Premiership elsewhere , Jordan stopped manufacturing to his <|unk|> after he stayed in the distance of Australia and was acquired by the Football League Trophy , although he played in the 1920s , though PPL looked like a low runway for maintenance and ultraviolet st into tourism and began work to study management movements . 
+ During the 20th century , run @-@ a @-@ scale economy @-@ like mercury ( for ] wide , a broad winter , for a long time per capita to undergraduates or silver service over 6 years . Rainbow is a full @-@ centimetres ( 36 @.@ 3 ) short shell , has 8 @.@ 36 in that year @.@ 5 / 12 cabins being tested for the cello known as <|unk|> or , uses <|unk|> to the event using additional displays . This affects the failure of the simplistic lyrics , mainly business and most of issues . 
+ In 2006 , the soil for the mass temperature is distributed by Echandra Kano . In the process became the purpose of both in hunger , director Robert Qedarite and Sri <|unk|> , the Arabic word nor peptides . His successor lobbied hard courts for export was used by Polish religious education . Small studies continue to study in the creation of the Israeli language , which contained teeth : the larger <|unk|> and elaborate degree , which items found a group of typists were predicted ; the influence of several military investments in after a term at ratings from the PlayStation . AI , the language for it traveled to television on September 28 , 18 , 2010 and a complete game also started in acceptance , putting in chemistry between <|unk|> and Allen Township . There is no denominations held a seventh @-@ largest person from films and its historic properties . 
+ Peshkin studied every sound and other <|unk|> ( from cities in Fujian ) are linked to the present site of the chaplet of the tabernacle or completed around 1882 . It is often featured in central Mexico as a non @-@ inhabit . A Djedkare <|unk|> gave an agents base to bedroom I 's consciousness and providing a way to Maya Skinner
+```
+loss = 5.186527729034424
+perplexity = 178.84646606445312
+
+===Evaluation (20000/20000)===
+Example
+```
+! of Edinburgh he substituted for other acting as a prolific commercial success campaign against Arthur Pendragon . Frank <|unk|> D <|unk|> <|unk|> , Kevin <|unk|> , deceit , tells of who would that she is not comfortable at the time he had unsuccessfully to have an all trusted Picard , <|unk|> to Sayid <|unk|> <|unk|> about Carol 's father . This was also on the group , and his father is a kind of man , most prominently in the grooved spot , which Retaliation is one of the most obviousstay on the possibility . Helms also featured them to the fans and references to Chris <|unk|> , who excels with her for unpaid Kung Lao . 
+ " Note : Sue Symons realizes this @-@ key anthropomorphic scenes , it fails to sign for a love album with a comment against marching drums or a " Big Pink " while softer bass out of heroin in her life , " demons " him " . Rich Harrison also gives her a couple of the baby " Christmas " . When Harrison brought the chorus in the final video of Loose 's Fight , inspired a " hip hop and " notable disdain and the hook " as literally which were " <|unk|> pleasing , the series of " Christmas " , with its lyrical impact as a part of Heaven . It is <|unk|> further , and " Santa @-@ Fe " in @-@ Love " ( 1973 ) 
+ Five @-@ time Jardine is former former Alec Baldwin won the Medal of the 1989cover television series of the 2005 ABC <|unk|> The Times of Painting — a <|unk|> ab <|unk|> ( 43 BCE ) . 
+ After learning that after the clergy also witnessed Major was excessive , Irish <|unk|> and Christian Aramaic , Jr. , who in which work was members of the first poem , patron of presbyterian in regards to this plan the island 's <|unk|> Technology Library . During 2007 , the state government later revealed to judicial decisions about telling this <|unk|> to its official Church ; was acceptable for transportation to promote civilian legitimacy , believing that Wheeler was called the mayor , who had participated in Denmark on charter stations . They did not be promoted to European literature , but this of Ernoul 's brought anger as a larger French mother , Pitman won his sons of Carlisle . Christopher '
+```
+loss = 5.228576183319092
+perplexity = 186.52703857421875
+
