@@ -65,7 +65,7 @@ def add_evaluation_results(
         f.write(f"loss = {loss}\n")
         f.write(f"perplexity = {perplexity}\n\n")
 
-    print("Evaluation:")
+    print(f"===Evaluation ({iteration}/{max_iterations})===\n")
     print(f"Generated text:\n{generated_text}")
     print(f"loss = {loss}")
     print(f"perplexity = {perplexity}")
