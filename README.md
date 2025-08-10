@@ -6,6 +6,6 @@ Follows https://arxiv.org/pdf/1706.03762 somewhat, but only the decoder part as 
 - Layer norms and residuel connections are done differently in gpt
 - Using masked attention heads for each, should not be needed?
 
-## When running on a old laptop
+## When running on a old gaming laptop
 
 See `training` for the results

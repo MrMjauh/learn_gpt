@@ -78,7 +78,7 @@ class DecoderBlock(nn.Module):
         internal_dim = 4 * embedding_dim
         self.feedForward = nn.Sequential(
             nn.Linear(embedding_dim, internal_dim),
-            nn.ReLU(),
+            nn.GELU(),
             nn.Linear(internal_dim, embedding_dim),
             nn.Dropout(dropout_rate),
         )
