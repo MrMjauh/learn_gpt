@@ -10,11 +10,11 @@ import torch.optim as optim
 
 torch.manual_seed(1)
 
-dropout_rate = 0.1
-num_heads = 6
-num_blocks = 6
+dropout_rate = 0.02
+num_heads = 12
+num_blocks = 12
 context_window = 64
-embedding_dim = 64
+embedding_dim = 768
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 with open("./resources/wiki.train.txt", "r", encoding="utf-8") as file:
@@ -36,8 +36,8 @@ class Head(nn.Module):
         self.value = nn.Linear(embedding_dim, head_size, bias=False)
         # Triangulation matrix, avoid tokens to attend future ones (upper matrix with ones)
         self.register_buffer(
-            "tril", torch.tril(torch.ones(context_window, context_window))
-        )
+                "tril", torch.tril(torch.ones(context_window, context_window))
+            )
         self.dropout = nn.Dropout(dropout_rate)
 
     # See https://jalammar.github.io/illustrated-transformer/#multi-head-attention for nice math explanations
@@ -118,7 +118,7 @@ class Gpt(nn.Module):
             num_embeddings=vocab_size, embedding_dim=embedding_dim
         )
         self.position_embedding = nn.Embedding(context_window, embedding_dim)
-        # Can use sequential, but lets illustrate
+        self.dropout = nn.Dropout(dropout_rate)
         self.blocks = nn.Sequential(*[DecoderBlock() for _ in range(num_blocks)])
 
         self.ln_f = nn.LayerNorm(embedding_dim)  # final layer norm
@@ -142,6 +142,7 @@ class Gpt(nn.Module):
         pos_emb = self.position_embedding(torch.arange(seq, device=device))
         # Dimension is (batch_size, seq_len, embedding_dim)
         tok_pos_out = tok_emb + pos_emb
+        tok_pos_out = self.dropout(tok_pos_out)
 
         # Transformer block N times
         block_out = self.blocks(tok_pos_out)
@@ -198,7 +199,7 @@ def eval_model(gpt, results_file, iteration: int, max_iterations: int, mode: Mod
             generated_text = decode(context[0].tolist())
 
         losses = torch.zeros(64)
-        for i in tqdm(range(0, 32), desc="Evaluate", unit="batch"):
+        for i in tqdm(range(0, 64), desc="Evaluate", unit="batch"):
             x, y = get_batch(val_data)
             _, loss = gpt(x, y)
             losses[i] = loss.item()
@@ -227,7 +228,8 @@ if __name__ == "__main__":
     # Default training values
     max_iters = 20000
     eval_iter = 1000
-    lr = 3e-4
+    lr = 6e-4
+    decay_rate = 1e-1
     batch_size = 32
 
     # Benchmark mode overrides
@@ -238,7 +240,14 @@ if __name__ == "__main__":
         batch_size = 64
 
     gpt = Gpt().to(device)
-    optimizer = optim.Adam(gpt.parameters(), lr=lr)
+    optimizer = optim.AdamW(
+        gpt.parameters(),
+        lr=lr,
+        weight_decay=decay_rate,
+        betas=(0.9, 0.999),
+        eps=1e-8,
+        amsgrad=False
+    )
     results_file = start_training_results(
         num_heads,
         num_blocks,
