@@ -11,6 +11,9 @@ def start_training_results(
     context_window,
     embedding_dim,
     dropout_rate,
+    lr,
+    max_iters,
+    eval_iters,
     mode: Mode
 ):
     folder = "training"
@@ -27,7 +30,10 @@ def start_training_results(
         "tokenizer_id",
         "context_window",
         "embedding_dim",
-        "dropout_rate"
+        "dropout_rate",
+        "lr",
+        "max_iters",
+        "eval_iters"
     ]
     
     values = [
@@ -37,7 +43,10 @@ def start_training_results(
         str(tokenizer_id),
         str(context_window),
         str(embedding_dim),
-        str(dropout_rate)
+        str(dropout_rate),
+        str(lr),
+        str(max_iters),
+        str(eval_iters),
     ]
     
     with open(filename, 'w', encoding='utf-8') as f:

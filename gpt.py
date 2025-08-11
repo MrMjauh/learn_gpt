@@ -237,11 +237,6 @@ if __name__ == "__main__":
         lr = 5e-4      
         batch_size = 64
 
-    print(f"Running training on device {device}")
-    print(f"Vocab size {vocab_size}")
-    print(f"Mode: {args.mode}")
-    print(f"Batch size: {batch_size}, Learning rate: {lr}, Max iters: {max_iters}, Eval every: {eval_iter}")
-
     gpt = Gpt().to(device)
     optimizer = optim.Adam(gpt.parameters(), lr=lr)
     results_file = start_training_results(
@@ -252,6 +247,9 @@ if __name__ == "__main__":
         context_window,
         embedding_dim,
         dropout_rate,
+        lr,
+        max_iters,
+        eval_iter,
         args.mode
     )
 
