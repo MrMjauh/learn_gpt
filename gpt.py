@@ -1,7 +1,9 @@
 import time
 import torch
+import argparse
 import torch.nn as nn
 from tqdm import tqdm
+from typedefs import Mode
 from results import start_training_results, add_evaluation_results, end_training_results
 from tokenizer.tiktoken_tokenizer import encode, decode, vocab_size, tokenizer_id
 import torch.optim as optim
@@ -17,11 +19,10 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 with open("./resources/wiki.train.txt", "r", encoding="utf-8") as file:
     content = file.read() 
-data = torch.tensor(encode(content), dtype=torch.long)
-n = int(0.9 * len(data))
-train_data = data[:n]
-val_data = data[n:]
-
+train_data = torch.tensor(encode(content), dtype=torch.long)
+with open("./resources/wiki.valid.txt", "r", encoding="utf-8") as file:
+    content = file.read() 
+val_data = torch.tensor(encode(content), dtype=torch.long)
 
 class Head(nn.Module):
 
@@ -173,16 +174,6 @@ class Gpt(nn.Module):
 
         return logits, loss
 
-
-# Run training
-print(f"Running training on device {device}")
-print(f"Vocab size {vocab_size}")
-max_iters = 20000
-eval_iter = 1000
-lr = 3e-4
-batch_size = 32
-
-
 def get_batch(dataset):
     ix = torch.randint(len(dataset) - context_window, (batch_size,))
     x = torch.stack([dataset[i : i + context_window] for i in ix])
@@ -190,41 +181,29 @@ def get_batch(dataset):
     x, y = x.to(device), y.to(device)
     return x, y
 
-
-gpt = Gpt()
-gpt = gpt.to(device)
-optimizer = optim.Adam(gpt.parameters(), lr=lr)
-results_file = start_training_results(
-    num_heads,
-    num_blocks,
-    batch_size,
-    tokenizer_id,
-    context_window,
-    embedding_dim,
-    dropout_rate
-)
-
-def eval(iteration: int, max_iterations: int):
+def eval_model(gpt, results_file, iteration: int, max_iterations: int, mode: Mode):
     with torch.no_grad():
         gpt.eval()
-        # Generate a preview for each epoc, 128 seq length
-        context = torch.zeros((1, 1), dtype=torch.long, device=device)
-        for i in tqdm(range(0, 512), desc="Generating", unit="token"):
-            logits, loss = gpt(context[:, -context_window:])
-            logits = logits[:, -1, :]
-            probs = torch.softmax(logits, dim=-1)
-            next_token = torch.multinomial(probs, num_samples=1)
-            context = torch.cat((context, next_token), dim=1)
-        generated_text = decode(context[0].tolist())
+        
+        generated_text = None
+        # In train mode we want to see the output, and see how the model progresses
+        if mode == Mode.TRAIN:
+            context = torch.zeros((1, 1), dtype=torch.long, device=device)
+            for _ in tqdm(range(0, 512), desc="Generating", unit="token"):
+                logits, _ = gpt(context[:, -context_window:])
+                logits = logits[:, -1, :]
+                probs = torch.softmax(logits, dim=-1)
+                next_token = torch.multinomial(probs, num_samples=1)
+                context = torch.cat((context, next_token), dim=1)
+            generated_text = decode(context[0].tolist())
 
-        losses = torch.zeros(32)
+        losses = torch.zeros(64)
         for i in tqdm(range(0, 32), desc="Evaluate", unit="batch"):
             x, y = get_batch(val_data)
-            logits, loss = gpt(x, y)
+            _, loss = gpt(x, y)
             losses[i] = loss.item()
         avg_loss = losses.mean()
         perplexity = torch.exp(torch.tensor(avg_loss))
-
         add_evaluation_results(
             results_file,
             generated_text,
@@ -234,24 +213,59 @@ def eval(iteration: int, max_iterations: int):
             max_iterations
         )
 
-start = time.perf_counter()
-for iteration in tqdm(range(max_iters), desc="Training Epochs", unit="iter"):
-    if iteration % eval_iter == 0:
-        eval(iteration, max_iters)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Train GPT model with optional benchmark mode.")
+    parser.add_argument(
+        "--mode",
+        type=lambda m: Mode(m),
+        choices=list(Mode),
+        default=Mode.TRAIN,
+        help="Select run mode: 'bench' for benchmarking, 'train' for full training."
+    )
+    args = parser.parse_args()
 
-    # Training
-    gpt.train()
-    x, y = get_batch(train_data)
-    optimizer.zero_grad()
-    logits, loss = gpt(x, y)
-    loss.backward()
-    optimizer.step()
+    # Default training values
+    max_iters = 20000
+    eval_iter = 1000
+    lr = 3e-4
+    batch_size = 32
 
-# Last eval after training is done
-eval(
-    max_iters,
-    max_iters
-)
+    # Benchmark mode overrides
+    if args.mode == Mode.BENCH:
+        max_iters = 500
+        eval_iter = 100
+        lr = 5e-4      
+        batch_size = 64
 
-end = time.perf_counter()
-end_training_results(results_file, end - start)
+    print(f"Running training on device {device}")
+    print(f"Vocab size {vocab_size}")
+    print(f"Mode: {args.mode}")
+    print(f"Batch size: {batch_size}, Learning rate: {lr}, Max iters: {max_iters}, Eval every: {eval_iter}")
+
+    gpt = Gpt().to(device)
+    optimizer = optim.Adam(gpt.parameters(), lr=lr)
+    results_file = start_training_results(
+        num_heads,
+        num_blocks,
+        batch_size,
+        tokenizer_id,
+        context_window,
+        embedding_dim,
+        dropout_rate,
+        args.mode
+    )
+
+    start = time.perf_counter()
+    for iteration in tqdm(range(max_iters), desc="Training Epochs", unit="iter"):
+        if iteration % eval_iter == 0:
+            eval_model(gpt, results_file, iteration, max_iters, args.mode)
+        gpt.train()
+        x, y = get_batch(train_data)
+        optimizer.zero_grad()
+        logits, loss = gpt(x, y)
+        loss.backward()
+        optimizer.step()
+
+    eval_model(gpt, results_file, max_iters, max_iters, args.mode)
+    end = time.perf_counter()
+    end_training_results(results_file, end - start)

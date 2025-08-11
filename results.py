@@ -1,5 +1,7 @@
 import os
 from datetime import datetime
+from typedefs import Mode
+from typing import Optional
 
 def start_training_results(
     num_heads,
@@ -8,11 +10,15 @@ def start_training_results(
     tokenizer_id,
     context_window,
     embedding_dim,
-    dropout_rate
+    dropout_rate,
+    mode: Mode
 ):
+    folder = "training"
+    if mode == Mode.BENCH:
+        folder = "bench"
     today = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    os.makedirs("./training", exist_ok=True)
-    filename = f"./training/{today}.txt"
+    os.makedirs(f"./{folder}", exist_ok=True)
+    filename = f"./{folder}/{today}.txt"
     
     headers = [
         "num_heads",
@@ -50,7 +56,7 @@ def start_training_results(
 
 def add_evaluation_results(
     filename: str,
-    generated_text: str,
+    generated_text: Optional[str],
     loss: float,
     perplexity: float,
     iteration: int,
@@ -59,18 +65,21 @@ def add_evaluation_results(
     with open(filename, 'a', encoding='utf-8') as f:
         f.write(f"===Evaluation ({iteration}/{max_iterations})===\n")
         f.write("Example\n")
-        f.write("```\n")
-        f.write(f"{generated_text}\n")
-        f.write("```\n")
+        if generated_text  is not None:
+            f.write("```\n")
+            f.write(f"{generated_text}\n")
+            f.write("```\n")
         f.write(f"loss = {loss}\n")
         f.write(f"perplexity = {perplexity}\n\n")
 
     print(f"===Evaluation ({iteration}/{max_iterations})===\n")
-    print(f"Generated text:\n{generated_text}")
+    if generated_text is not None:
+        print(f"Generated text:\n{generated_text}")
     print(f"loss = {loss}")
     print(f"perplexity = {perplexity}")
 
 def end_training_results(filename: str, elapsed_time: float):
+    elapsed_time = round(elapsed_time, 2)
     # Read current content
     with open(filename, 'r', encoding='utf-8') as f:
         content = f.read()
